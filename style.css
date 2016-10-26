@@ -1,0 +1,195 @@
+body{
+    background-image: url('lost.jpg');
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*
+.intro header{
+	width: 420px;
+	height:420px;
+	border-radius:50%;
+	background-image:url("dark.jpg");
+	color:white;
+	position:absolute;
+	top: 100px;
+	
+	
+}
+
+.intro header h2, .intro header h1{
+	width: 300px;
+	margin: auto;
+	position: relative;
+	top: 70px;
+}
+
+.summary{
+	width: 420px;
+	height:420px;
+	border-radius:50%;
+	background-image:url("dark.jpg");
+	color:white;
+	position:absolute;
+	top: 100px;
+	
+}
+
+.summary p {
+	width: 300px;
+	margin: auto;
+	position: relative;
+	top: 70px;
+}
+.preamble{
+	width: 420px;
+	height:420px;
+	border-radius:50%;
+	background-image:url("dark.jpg");
+	color:white;
+	position:absolute;
+	top: 100px;
+	
+}
+
+.preamble p, .preamble h3 {
+	width: 300px;
+	margin: auto;
+	position: relative;
+	top: 70px;
+}
+.explanation{
+	width: 450px;
+	height:450px;
+	border-radius:50%;
+	background-image:url("dark.jpg");
+	color:white;
+	position:absolute;
+	top: 100px;
+	
+}
+
+.explanation p, .explanation h3 {
+	width: 320px;
+	margin: auto;
+	position: relative;
+	top: 70px;
+}
+
+.participation{
+	width: 500px;
+	height:500px;
+	border-radius:50%;
+	background-image:url("dark.jpg");
+	color:white;
+	position:absolute;
+	top: 100px;
+	
+}
+
+.participation p, .participation h3 {
+	width: 370px;
+	margin: auto;
+	position: relative;
+	top: 70px;
+}
+*/
+
+body {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.text-circle {
+  height: 300px;
+  position: absolute;
+  left: 100px;
+  right: 100px;
+  margin: 0 auto;
+  top: 80px;
+  overflow: show;
+}
+.text-circle-large {
+  height: 500px;
+  width:500px;
+  position: absolute;
+  left: 70px;
+  right: 70px;
+  margin: 0 auto;
+  top: 100px;
+  overflow: show;
+  text-align:center;
+}
+
+.text-circle-wrapper {
+  margin: auto;
+  background:aqua;
+  position: relative;
+  width: 500px;
+  height: 500px;
+  padding: 1em;
+  border-radius: 50%;
+  position: relative;
+}
+.text-circle-wrapper-large {
+  margin: auto;
+  background: aqua;
+  position: relative;
+  width: 600px;
+  height: 600px;
+  padding: 1em;
+  border-radius: 50%;
+  position: relative;
+}
+
+.text-circle p, .text-circle h3, .text-circle h1, .text-circle h2, .text-circle-large h3 {
+ text-align: center;
+}
+
+.text-circle-wrapper.small {
+	height: 250px;
+	width: 250px;
+}
+.text-circle-wrapper.medium {
+	height: 350px;
+	width: 350px;
+	
+}
+.text-circle.medium{
+	top:50px;
+}
+.text-circle.xl{
+	top:130px;
+}
+.text-circle-wrapper.xl{
+	width:800px;
+	height:800px;
+}
+
+.text-circle-wrapper.small .text-circle {
+
+	height: 250px;
+	width: 250px;
+	left: 25px;
+  right: 25px;
+	top: 75px;
+}
+.text-circle-wrapper.small .text-circle {
+
+	height: 250px;
+	width: 250px;
+	left: 25px;
+  right: 25px;
+	top: 75px;
+}
+
+.sidebar {
+	background: black;
+	padding: 2em;
+	color: white;
+	width:30%;
+}
+
+
